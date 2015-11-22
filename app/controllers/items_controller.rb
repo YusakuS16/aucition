@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
   def show
-    @item = Item.find(parms[:id])
+    @item = Item.find(params[:id])
+  end
 end
